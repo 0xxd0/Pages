@@ -1,0 +1,17 @@
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/get-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+
+# Title of your site
+title = "徐旭栋"
+
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+# baseurl = "/"
+
+# Enter a copyright notice to display in the site footer.
+# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
+copyright = "Copyright &copy; 2014 - {year} 徐旭栋。保留所有权利。"

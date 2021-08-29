@@ -1,0 +1,173 @@
+// _base.scss
+$--color-text-primary: #24292e;
+$--color-border-secondary: #eaecef;
+$--color-markdown-code-bg: rgba(27, 31, 35, 0.05);
+$--color-bg-tertiary: #f6f8fa;
+
+/* Lists */
+ul,
+ol,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-inline-start: 25px;
+}
+
+h1 {
+  font-size: 2em;
+  padding-bottom: .3em;
+  font-weight: 600;
+}
+h2 {
+  font-weight: 600;
+  padding-bottom: .3em;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid $--color-border-secondary;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+}
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+pre,
+code {
+  font-family: $sta-font-mono, monospace;
+  color: $--color-text-primary;
+
+  /* Match bg of default highlight theme. */
+  padding: .2em .4em;
+  border-radius: 6px;
+  background-color: $--color-markdown-code-bg;
+}
+
+pre {
+  padding: 1.0em;
+  overflow: auto;
+  font-size: .8em;
+  line-height: 1.75;
+  background-color: $--color-bg-tertiary;
+  border-radius: 6px;
+}
+
+// elements._content.scss
+.article-container {
+  max-width: 70%;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+// components._card.scss
+.card-simple {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 1rem;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+}
+
+.dark .card-simple {
+  background: rgb(40, 42, 54);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgb(68, 71, 90);
+}
+
+// custom fonts
+@font-face {
+  font-family: 'Adobe Clean';
+  font-style: light;
+  font-weight: 300;
+  src: local('Adobe Clean Light'), url('/fonts/AdobeClean-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  font-style: regular;
+  font-weight: 450;
+  src: local('Adobe Clean Regular'), url('/fonts/AdobeClean-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: light;
+  font-weight: 300;
+  src: local('Product Sans Light'), url('/fonts/ProductSans-Light.woff2');
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: light;
+  font-weight: 260;
+  src: local('Cascadia Code Light'), url('/fonts/CascadiaCode.ttf');
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: regular;
+  font-weight: 360;
+  src: local('Cascadia Code Regular'), url('/fonts/CascadiaCode.ttf');
+}
+
+@font-face {
+  font-family: 'Cascadia Mono';
+  font-style: light;
+  font-weight: 350;
+  src: local('Cascadia Mono'), url('/fonts/CascadiaMono.ttf');
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  font-style: light;
+  font-weight: 350;
+  src: local('FiraCode Light'), url('/fonts/FiraCode-Light.ttf');
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  font-style: regular;
+  font-weight: 450;
+  src: local('FiraCode Regular'), url('/fonts/FiraCode-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  font-style: light;
+  font-weight: 300;
+  src: local('Geomanist Light'), url('/fonts/hinted-Geomanist-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  font-style: regular;
+  font-weight: 450;
+  src: local('Geomanist Regular'), url('/fonts/hinted-Geomanist-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'MetricHPE';
+  font-style: light;
+  font-weight: 300;
+  size-adjust: 111%;
+  src: local('MetricHPE Light'), url('/fonts/MetricHPE-App-Light.ttf');
+}
+
+@font-face {
+  font-family: 'MetricHPE';
+  font-style: regular;
+  font-weight: 450;
+  size-adjust: 111%;
+  src: local('MetricHPE Regular'), url('/fonts/MetricHPE-App-Regular.ttf');
+}

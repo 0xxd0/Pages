@@ -1,0 +1,16 @@
+# IDEs
+.idea/
+
+# Hugo
+/resources/
+public/
+jsconfig.json
+
+# macOS
+.DS_Store
+
+# Typescript
+node_modules/
+.node_modules/
+built/*
+.tsc/*

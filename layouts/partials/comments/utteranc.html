@@ -1,0 +1,12 @@
+<div id="utteranc_thread"></div>
+{{ $repo := (printf "%s" (site.Params.comments.utteranc.repo)) }}
+{{ $issueTerm := (printf "%s" (site.Params.comments.utteranc.issue_term)) }}
+{{ $theme := (printf "%s" (site.Params.comments.utteranc.theme)) }}
+{{ $crossorigin := (printf "%s" (site.Params.comments.utteranc.crossorigin)) }}
+<script src="https://utteranc.es/client.js"
+        repo="{{$repo}}"
+        issue-term="{{$issueTerm}}"
+        theme="{{$theme}}"
+        crossorigin="{{$crossorigin}}"
+        async>
+</script>

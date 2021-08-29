@@ -1,0 +1,38 @@
+############################
+## Contact details
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
+############################
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email = "xudongloveslife@gmail.com"
+# phone = "888 888 88 88"
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
+address = {street = "腾讯滨海大厦", city = "深圳", region = "广东", postcode = "518054", country = "中国", country_code = "CN"}
+
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+# coordinates = { latitude = '22.522769', longitude = '113.935235' }
+
+# Directions for visitors to locate you.
+# directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+
+# Office hours
+# A list of your office hours. To remove, set to an empty list `[]`.
+# office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+
+# Enter an optional link for booking appointments (e.g. calendly.com).
+# appointment_url = "https://calendly.com"
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = [
+  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+]
